@@ -1,0 +1,60 @@
+.menubar{
+    width: 80%;
+    margin: auto;
+    background-color: pink;
+}
+.menubar ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.menubar ul li{
+    list-style-type: none;
+}
+.menubar ul li a{
+ display: block;
+ text-decoration: none;
+ padding: 5px 20px;
+ color: black;
+}
+.menubar ul li a:hover{
+    color: white;
+    background-color: brown;
+}
+.ka{
+    width: 15%;
+    height: 500px;
+    background-color: plum;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.ka ul {
+    padding: 0;
+    margin: 0;
+   padding-top: 30%;
+}
+.ka ul li{
+    list-style-type: none;
+    padding: 20px 0px;
+
+   
+}
+.ka ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px 5px;
+    color: black;
+    text-align: center;
+    
+}
+.ka ul li a:hover{
+    background-color: aqua;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+  margin: 20px 10px;
+}

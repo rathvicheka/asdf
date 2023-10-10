@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    padding: 2px 20px;
+    margin-top: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.795);
+}
+.box{
+    width: 100%;
+    height: 30%;
+    position:relative;
+    
+    
+}
+.b1 h1{
+    
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: red;
+}
+.b1 input{
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid red;
+    
+}
+.b1{
+    font-size: 10px;
+    margin-top: 50px;
+
+}
+.b2 i{
+    background-color: red;
+    color: white;
+    padding: 25px;
+    position: absolute;
+    left: 90%;
+    top: -10px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.container .password input{
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 95%;
+    color: gray;
+
+}
+.container .go{
+    text-align: center;
+    border: 2px solid rgba(128, 128, 128, 0.457);
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    color: gray;
+}
+.container .footer{
+    text-align: center;
+    margin-top: 30px;
+    color: gray;
+}
+

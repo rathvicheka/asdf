@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    background-color: aqua;
+    position: relative;
+}
+.container .img{
+    width: 30%;
+    margin: auto;
+}
+.container.img img{
+    width: 100%;
+    height:100px ;
+    position: absolute;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+}
+.box{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.box input{
+    width: 100%;
+    padding: 20px;
+
+}
+.password{
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(9, 10, 10);
+    margin-top: 20px;
+    color: white;
+}
+

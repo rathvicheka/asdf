@@ -1,0 +1,43 @@
+ .content{
+    width: 960px;
+    background-color: green;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+
+    
+}     
+.box1{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(250, 101, 47);
+
+    
+}
+.box2{
+    width: 63%;
+    height: 500px;
+    background-color: palevioletred;
+     margin-top: 10px;
+    float: left; 
+}
+.box3{
+    width: 35%;
+    height: 500px;
+    background-color: yellow;
+   margin-left: 2%;
+    float: left;
+
+    margin-top: 10px;/*thleak mor 10px piler*/
+   
+
+      
+}   
+.box4{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    float: left;
+}
+
+

@@ -1,0 +1,40 @@
+.container{
+    width: 900px;
+    margin: auto;
+    background-color: white;
+    border: 3px solid blue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container .header{
+    width: 95%;
+    height: 80px;
+    margin-top: 20px;
+    background-color: pink;
+}
+.container .cover{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.container .cover .box1{
+    width: 47%;
+    height: 95%;
+    background-color: pink;
+    margin-left: 10px;
+}
+.container .cover .box2{
+    width: 46%;
+    height: 99.9%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container .cover .box2 .box3{
+    width: 97%;
+    height: 45%;
+    background-color: pink;
+}

@@ -1,0 +1,53 @@
+ * {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                        }
+                        
+                        .container {
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                        
+                        .box {
+                            width: 30%;
+                            height: 100%;
+                            box-shadow: 2px 5px 5px;
+                            border-radius: 20px;
+                            margin: 50px;
+                        }
+                        
+                        .box img {
+                            width: 100%;
+                            height: 60%;
+                            object-fit: cover;
+                            border-radius: 20px;
+                        }
+                        
+
+                        
+                        .text {
+                            width: 100%;
+                            height: 40%;
+                            border-radius: 20px;
+                        }
+                        
+                        .t1 {
+                            color: grey;
+                            padding: 5px;
+                        }
+                        
+                        .t2 {
+                            font-weight: bold;
+                            padding: 5px;
+                        }
+                        
+                        .t3 {
+                            padding: 5px;
+                        }
+                        
+                        .t4 {
+                            padding: 5px;
+                        }

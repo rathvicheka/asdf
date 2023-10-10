@@ -1,0 +1,68 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background: rgb(184,243,255);
+    background: radial-gradient(circle, rgba(184,243,255,1) 0%, rgba(0,212,255,1) 100%, rgba(131,234,255,1) 100%);
+}
+.Request
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw; /*1vw = 10px 700px*/
+    height: 70vh; /*1vh = 8px  560*/
+    background: rgb(131,234,255);
+    background: radial-gradient(circle, rgba(131,234,255,1) 0%, rgba(184,243,255,1) 100%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+    box-shadow: 12px 12px 24px -6px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 12px 12px 24px -6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 12px 12px 24px -6px rgba(0,0,0,0.2);
+}   
+.Request .Input input
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:  x-large;
+    transition: 0.5s ease;
+}
+.Request .Input input:hover
+{
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 12px 12px 24px -6px rgba(0,0,0,1);
+    -webkit-box-shadow: 12px 12px 24px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 12px 12px 24px -6px rgba(0,0,0,1);
+}
+.Request .BTN 
+{   
+    display: flex;
+    justify-content: center;
+
+    width: 70vw;
+}
+.Request .BTN button
+{
+    margin: 10px;
+    width:15vw; 
+    height: 5vh;
+    transition: 0.5s ease;
+}
+.Request .BTN button:hover
+{
+    transform: translate(-10px,-10px);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}

@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hearder{
+    width: 90%;
+    background-color: blue;
+    color: rgb(244, 238, 238);
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+}
+.container{
+    width: 90%;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    
+}
+.box{
+    width: 23%;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+.box1{
+    width: 54%;
+    height: 200px;
+    background-color: rgb(68, 255, 0);
+    text-align: center;
+    color: white;
+}
+.box2{
+    width: 23%;
+    height: 200px;
+    background-color: rgb(255, 255, 0);
+    text-align: center;
+    color: white;
+}
+.container1{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(224, 43, 224);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu{
+    width: 24%;
+    background-color: rgb(235, 65, 3);
+    text-align: center;
+    padding: 60px 0;
+    margin: 20px;
+    
+}

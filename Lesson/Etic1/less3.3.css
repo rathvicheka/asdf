@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    top: 0;
+   
+   
+}
+.container .logo{
+    width: 12.5%;
+    height: 140px;
+    box-shadow: 2px;
+    
+    
+}
+.container .logo img{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+}
+.container .menu{
+    width: 80%;
+    height: 80px;
+    
+   
+}
+.container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    gap: 80px;
+    list-style-type: none;
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.img{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.562);
+  
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.text{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+    padding: 25px;
+}
+.text .h3{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.text button{
+    font-size: 20px;
+    padding: 15px; 
+    margin-top: 7px; 
+  
+}
+.m1{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-top: 70px;
+}
+
+.m1 .t1{
+    width: 20%;
+    height: 100%;
+    margin-left: 50px;
+    position: relative;
+}
+.m1 .t1 h1{
+    position: absolute;
+    top: 100px;
+}
+.m1 .t1 span{
+    position: absolute;
+    top: 200px;
+}
+.m1 .img1{
+    width: 23%;
+    height: 100%;
+    margin-left: 130px;
+}
+.m1 .img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.m2{
+    width: 95%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin: 60px;
+}
+.m3{
+    width: 100%;
+    height: 600px;
+    margin-left: 65px;
+    display: flex;
+}
+.m3 .b1{
+    width: 60%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    box-sizing: border-box;
+   
+   
+}
+.m3 .b1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    
+    
+}
+.m3 .t1 {
+    position: absolute;
+    top: 230px;
+    color: white;
+}
+.m3 .t1 h2{
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 40px;
+}
+.m3 .b2{
+    width: 40%;
+    height: 100%;
+    margin-left: 30px;
+}
+.m3 .b2 .b2-1{
+    width: 80%;
+    height: 48%;
+    background-color: rgba(0, 0, 0, 0.495);
+    margin-bottom: 25px;
+    position: relative;
+}
+.m3 .b2 .b2-1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.m3 .b2 .b2-1 h2{
+    font-size: 20px;
+}
+.m3 .b2 .b2-1 .t1{
+    position: absolute;
+    top: 80px;
+    
+}
+.m3 .b2 .b2-2{
+    width: 80%;
+    height: 48%;
+    background-color:rgba(0, 0, 0, 0.503);
+    position: relative;
+}
+.m3 .b2 .b2-2 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.m3 .b2 .b2-2 .t1{
+    position: absolute;
+    top: 50px;
+}
+.m3 .b2 .b2-2 .t1 h2{
+    font-size: 20px;
+}
+.H{
+    width: 100%;
+   display: flex;
+   margin-top: 100px;
+}
+.H .box1{
+    width: 25%;
+}
+.H .box1 .herder{
+    width: 80%;
+    height: 200px ;
+    font-size: 37px;
+    font-weight: bold;
+    margin-left: 65px;
+    margin-top: 100px;
+}
+.H .box1 hr{
+    margin-top: 20px;
+}
+.H .box1 button{
+    width: 45%;
+    height: 30%;
+    margin-top: 20px;
+    border: 3px solid black;
+    font-size: 20px;
+    background: none;
+    padding: 0px 8px;
+}
+.H .box2{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.H .box2 .bb{
+    width: 32%;
+    height: 500px;
+    box-shadow: 0px 0px 0px 3px;
+}
+.H .box2 .bb .img{
+    width: 100%;
+    height: 50%;
+}
+.H .box2 .bb .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.H .box2 .bb .uu{
+    width: 100%;
+    height: 30%;
+}
+.H .box2 .bb .uu h2{
+    background-color: dimgray;
+    color: black;
+    width: 30%;
+    text-align: center;
+    margin-top: 10px;
+}
+.H .box2 .bb .uu h1{
+    font-size: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.H .box2 .bb .rr{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.H .box2 .bb .rr .oo{
+    width: 20%;
+    height: 80%;
+    margin-left: 10px;
+}
+.H .box2 .bb .rr .oo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.H .box2 .bb .rr .tt{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.last{
+    margin-top: 100px;
+    width: 100%;
+    padding-bottom: 100px;
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.last .qq{
+    margin-top: 100px;
+    width: 25%;
+    height: 150px;
+}
+.last .nn{
+    width: 100%;
+}
+.last .nn img{
+    width: 20%;
+}
+
+
+
+

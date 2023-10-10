@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .container{
+    width: 70%;
+    height: 100px;
+    display: flex;
+   margin: auto;
+}
+.container .logo{
+    width: 10%;
+    height: 100%;
+    
+}
+.container .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .menu{
+    width: 80%;
+    height: 100%;
+}
+.container .menu ul{
+    margin: 0;.
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 20px;
+}
+.container .menu ul li a{
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(13, 14, 14);
+}
+.container .search{
+   width: 10%;
+   height: 100%;
+   border: 2px solid rgba(192, 188, 188, 0.351);
+}
+.container .search i{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+
+} */
+.container1{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    background-color: blueviolet;
+    display: flex;
+}
+.container1 .box{
+    width: 10%;
+    height: 94%;
+    background-color: white;
+}
+
+.container1 .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container1 .menu{
+    width: 90%;
+    height: 100%;
+   
+}
+.container1 .menu ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+    margin-left: 150px;
+    margin-top: 17px;
+  
+}
+.container1 .menu a{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+
+}
+.container1 .menu ul li{
+    padding: 5px 0px;
+    margin: 0px 15px;
+    position: relative;
+    overflow: hidden;
+}
+.container1 .menu ul li::before{
+    content: "";
+    width: 50%;
+    border-bottom: 3px solid red;
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    transition: 0.8s;
+}
+.container1 .menu ul li::after{
+    content: "";
+    width: 50%;
+    border-bottom: 3px solid rgb(128, 128, 128);
+    position: absolute;
+    bottom: 0;
+    right: -100%;
+    transition: 0.8s;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+.container1 .menu ul li:hover::before{
+    left: 0;
+}
+.container1 .menu ul li:hover::after{
+    right: 0;
+}

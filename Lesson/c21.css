@@ -1,0 +1,173 @@
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    
+}
+.container .logo {
+    width: 12%;
+    height: 90px;
+    background-color: aliceblue;
+    
+}
+.container .logo img{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+}
+.container .search{
+    width: 70%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+.container .search input{
+    box-shadow: -6px 6px 13px -2px rgba(0,0,0,0.48);
+-webkit-box-shadow: -6px 6px 13px -2px rgba(0,0,0,0.48);
+-moz-box-shadow: -6px 6px 13px -2px rgba(0,0,0,0.48);
+    width: 90%;
+    height: 31px;
+    border: none;
+}
+.container  .icon{
+    width: 15%;
+   
+    
+}
+.container .icon i{
+    background-color: rgba(212, 211, 209, 0.806);
+    padding: 10px 20px;
+    margin-top: 27px;
+    box-shadow: 1px 15px 22px -14px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 15px 22px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 15px 22px -14px rgba(0,0,0,0.75);
+}
+.container1{
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(16, 167, 218);
+}
+.container1 .menu{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(16, 167, 218);
+    display: flex;
+    justify-content: space-between;
+}
+.container1 .menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-left: 40px;
+    padding: 15px;
+}
+.container1 .menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+.container1 .menu a:hover{
+    background-color:rgb(16, 167, 218);
+    color:blue;
+}
+.container2 {
+    width: 78%;
+    margin: auto;
+}
+.container2 .box1{
+    width: 100%;
+   display: flex;
+   justify-content:space-between;
+   flex-wrap: wrap;
+    
+}
+.container2  .tiltle {
+    width: 100%;
+    background-color:rgba(6, 5, 5, 0.126);
+    
+}
+.container2  .tiltle p{
+    font-size: 15px;
+    padding: 10px 8px;
+}
+.container2 .box1 .item1{
+    width: 22%;
+    height: 300px;
+background-color: rgba(0, 0, 0, 0.091);
+    margin-bottom: 15px;
+   
+}
+.container2 .box1 .item1 .pic{
+    height: 50%;
+    width: 100%;
+
+    
+
+}
+.container2 .box1 .item1 .pic img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border: 2px solid dimgray;
+}
+.container2 .box1 .item1 .text{
+    height: 25%;
+    width: 100%;
+    padding: 5px;
+    
+    
+}
+.container2 .box1 .item1 .text h4{
+    font-size: 15px;
+    margin-top: 7px;
+    
+}
+.container2 .box1 .item1 .text span{
+    font-size: 13px;
+    font-weight: 100;
+   
+    
+}
+.container2 .box1 .price{
+    width: 100%;
+    height: 7%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: right;
+    margin-left: -10px;
+    color: red;
+}
+.container2 .box1 .item1 .card {
+  width: 100%;
+  height: 10%;
+    margin-top: 5%;
+    
+}
+.container2 .box1 .item1 .card  .b1{
+    width: 100%;
+    height: 100%;
+}
+.container2 .box1 .item1 .card .b1 ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+.container2 .box1 .item1 .card .b1 ul li a{
+    text-decoration: none;
+    background-color: greenyellow;
+    padding: 10px 10.5px;
+    font-size: 13.25px;
+}
+.container2 .box1 .item1 .card .b1 ul li a i{
+    color: black;
+}

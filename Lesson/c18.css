@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+.contain{
+background-color: rgb(12, 132, 230);
+width: 90%;
+margin: auto;
+padding: 10px;
+
+}
+.contain.box{
+    width: 100%;
+}
+.contain .box ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+}
+.contain .box ul li {
+    list-style-type: none;
+}
+.contain .box ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.contain .box ul li a:hover{
+    color: aliceblue;
+}
+.contain2{
+    width: 90%;
+    margin: auto;
+    
+    
+}
+.contain2 .box2 h1{
+    text-align: center;
+   
+}
+.contain2 .box2  p{
+    text-align: center;
+}
+.contain3{
+    width: 90%;
+    margin:auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contain3 .box3 {
+    
+    width: 23%;
+    height: 500px;
+    border-radius: 20px;
+
+}
+.contain3 .box3 .box3-1{
+    width: 100%;
+    height: 40%;
+   
+}
+.contain3 .box3 .box3-1 img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 20px;
+}
+.contain3 .box3 .text{
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+   
+}
+.contain3 .box3 .text h1{
+    padding: 0px 15px;
+}
+.contain3 .box3 .text p{
+    font-size: 18px;
+    padding: 0px 15px;
+
+}
+.contain3 .box3 .more{
+   
+    width: 100%;
+    height: 20%;
+  
+}
+.contain3 .box3 .more .box4{
+    width:25% ;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: greenyellow;
+    font-size: 18px;
+   margin: 20PX 13PX;
+
+}
+.contain3 .box3 .more .box4:hover{
+    color: aliceblue;
+    margin: 10px 0px;
+}
+
+
+

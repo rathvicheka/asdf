@@ -1,0 +1,52 @@
+.header
+{
+    height: 10vh;
+    width: 100vw;
+}
+.Container
+{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center; /* x */
+    align-items: center;/* Y */
+}
+.Container input
+{
+    width: 200px;
+    height: 30px;
+    transition: 0.5s ease all;
+}
+
+.footer
+{
+    height: 10vh;
+    width: 100vw;
+
+}
+.Container input:hover
+{
+    color: aliceblue;
+    background-color: pink;
+    margin-bottom: 30px;
+    box-shadow: 13px 10px 0px -4px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 13px 10px 0px -4px rgba(0,0,0,0.54);
+    -moz-box-shadow: 13px 10px 0px -4px rgba(0,0,0,0.54);
+    /* https://cssgenerator.org/box-shadow-css-generator.html */
+    
+}
+.Container .box button{
+    width: 100px;
+    height: 50px;
+    transition: 0.3s ease all ;
+}
+.Container button:hover{
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color:pink;
+    margin-bottom: 30px;
+    box-shadow: 13px 10px 0px -4px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 13px 10px 0px -4px rgba(0,0,0,0.54);
+    -moz-box-shadow: 13px 10px 0px -4px rgba(0,0,0,0.54);
+}
+

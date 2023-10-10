@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+button
+{
+    font-size: large;
+    font-family: 'Abril Fatface', cursive;
+    background-color: rgb(55, 55, 220); 
+    width: 10vw;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+

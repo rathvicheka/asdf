@@ -1,0 +1,29 @@
+
+
+body{ 
+    /* dak kom oy sol space khang ler */
+    margin: 0;
+}
+.contentner{
+    width: 760px;
+    background-color: green;
+    margin: auto;/*mok kdal*/
+
+    padding: 20px;/*bong rum bong rik*/
+
+    overflow: hidden;/*oy content run tam float*/
+
+}
+.box
+{
+    width: 360px;
+    height: 130px;
+    background-color: yellow;
+    margin: 10px;
+    float: left;
+    /*oy boder run pi chveng tov sdam*/
+    
+
+
+
+}

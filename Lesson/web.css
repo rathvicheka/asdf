@@ -1,0 +1,110 @@
+.container{
+    width: 70%;
+    background-color: pink;
+    margin: auto;
+    display: flex;
+}
+.logo{
+    width: 30%;
+    height: 112px;
+    /* background-color: blue; */
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo img:hover{
+    padding: 5px;
+    box-sizing: border-box;
+}
+.name{
+    width: 70%;
+    /* background-color: red; */
+}
+.name h1{
+    font-size: 45px;
+    text-align: center;
+}
+.name h1:hover{
+    color: white;
+}
+.menu{
+    margin-top: 15px;
+    background-color: pink;
+    width: 100%;
+}
+.menu .box{
+    width: 70%;
+    background-color: pink;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu .box ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.menu .box ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+}
+.menu .box ul li a:hover{
+    background-color: crimson;
+    color: white;
+}
+.product{
+    width: 100%;
+    margin-top: 15px;
+}
+.product .box{
+    width: 70%;
+    background-color: pink;
+    margin: auto;
+    box-shadow: 1px 1px 8px 0 black;
+    display: flex;
+    justify-content: space-around;
+}
+.product .box .img{
+    width: 22%;
+    background-color: black;
+    height: 260px;
+}
+.product .box .img .img1{
+    width: 100%;
+    height: 70%;
+    background-color: red;
+}
+.product .box .img .img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product .box .img .text{
+    width: 100%;
+    height: 30%;
+    background-color: blue;
+}
+.bar{
+    width: 70%;
+    background-color: pink;
+    box-shadow: 1px 1px 8px black;
+    margin: auto;
+}
+.bar h1{
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 15px;
+}
+.bar h1:hover{
+    color: white;
+}

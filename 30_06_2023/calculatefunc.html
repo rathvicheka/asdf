@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Num1</label>
+    <input type="text" name="" id="ti1" placeholder="Input Number">
+    <label for="">Num2</label>
+    <input type="text" name="" id="ti2" placeholder="Input Number">
+    <label for="">Result</label>
+    <input type="text" name="" id="smer" placeholder="result">
+    <input type="button" value="+" id="bok">
+    <input type="button" value="-" id="dok">
+    <input type="button" value="x" id="kun" ondblclick="kun()">
+    <input type="button" value="/" id="jek">
+    <div id="result" style="color: red;">
+        Result= ?
+    </div>
+</body>
+<script>
+    var num1 = document.getElementById("ti1")
+    var num2 = document.getElementById("ti2")
+    var smer = document.getElementById("smer")
+    document.getElementById("bok").addEventListener("mouseover", function(){
+        document.getElementById("smer").value = parseFloat(num1.value) + parseFloat(num2.value)
+        document.getElementById("result").innerHTML = smer.value
+        console.log(smer.value)
+    })
+    document.getElementById("dok").addEventListener("mouseleave", function(){
+        document.getElementById("smer").value = parseFloat(num1.value) - parseFloat(num2.value)
+        document.getElementById("result").innerHTML = smer.value
+        console.log(smer.value)
+    })
+    function kun(){
+        document.getElementById("smer").value = parseFloat(num1.value) * parseFloat(num2.value)
+        document.getElementById("result").innerHTML = smer.value
+        console.log(smer.value)
+    }
+    document.getElementById("jek").addEventListener("click", function(){
+        document.getElementById("smer").value = parseFloat(num1.value) / parseFloat(num2.value)
+        document.getElementById("result").innerHTML = smer.value
+        console.log(smer.value)
+    })
+
+</script>
+</html>

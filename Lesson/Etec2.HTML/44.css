@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con{
+
+    width: 50vw;
+    height: 710px;
+    background-color: hsl(42, 84%, 49%);
+    margin: auto;
+    padding: 10px 0px;
+    border: 2px solid rgb(169, 168, 168);
+
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin-top: 10px;
+}
+.container .box1{
+    background-color: white;
+    width: 100%;
+    height: 15%;
+   
+}
+h1{
+    font-weight: bold;
+}
+.container .box2 {
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    background-color: white;
+}
+.container .box2 .b1{
+    width: 100%;
+   background-color: white;
+    border: 2px solid rgb(169, 168, 168);
+}
+.container .box2 .b1 i{
+   font-size: 20px;
+   padding: 12px;
+   border-right: 2px solid rgb(169, 168, 168);
+}
+.container .box2 .b1 input{
+    width: 90%;
+    padding: 10px 10px;
+    background-color: unset;
+    border: none;
+}
+.container .box3  {   
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.container .box3 .b1{
+    width: 47%;
+    border: 2px solid rgb(169, 168, 168);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container .box3 .b1 i{
+   font-size: 20px;
+   padding: 12px;
+   border-right: 2px solid rgb(169, 168, 168);
+}
+.container .box3 .b1 input{
+    width: 50%;
+    background-color: unset;
+    border: none;
+}
+.circle{
+    width: 100%;
+    height: 26%;
+  
+
+}
+.c1{
+    width: 28%;
+    margin-left: 40px;
+    font-size: 20px;
+   
+}
+.circle select{
+    width: 90%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.circle .c2{
+   
+    padding: 20px;
+    font-size: 17px;
+    margin-left: 20px;
+    width: 90%;
+}
+.register{
+    width: 90%;
+    margin-left: 40px;
+    text-align: center;
+    background-color:  hsl(42, 84%, 49%);
+    padding: 9px;
+}
+

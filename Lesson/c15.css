@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 960px;
+    overflow: hidden;
+    background-color: rgb(234, 18, 18);
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px rgb(163, 108, 178);
+
+}
+.box{
+    width: 100%;
+    height: 600px;
+    background-color: aqua;
+    float: left;
+    position: relative;
+   
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.box .menu{
+    width: 100%;
+    height: 60px;
+    float: left;
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.103);
+    top:0;
+}
+.logo{
+    width: 10%;
+    background-color:white;
+    float: left;
+    border: 2px solid rgb(8, 8, 8);
+}
+.logo img{
+    width: 100%;
+    height: 55px;
+    object-fit: contain;
+}
+.menu1{
+    width: 100%;
+    
+
+}
+.menu1 ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    
+    
+}
+.menu1 ul li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+.menu1 ul li a:hover{
+    color: azure;
+
+
+
+}

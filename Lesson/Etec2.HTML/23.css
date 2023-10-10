@@ -1,0 +1,37 @@
+#header{
+    width: 50%;
+    background-color: rgb(189, 185, 185);
+    margin: auto;
+    text-align: center;
+    padding: 20PX 0PX;
+}
+#contain{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#box{
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+   color: black;
+    
+
+}
+#h3{
+    height: auto;
+    width: 100%;
+    font-weight: bold;
+}
+#footer{
+    width:50%;
+    padding: 10px 0px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: auto;
+}

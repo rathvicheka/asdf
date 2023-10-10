@@ -1,0 +1,95 @@
+.menu{
+    background-color: aqua;
+    width: 80%;
+    margin: auto;
+
+}
+.menu ul{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.menu ul li{
+    list-style-type: none;
+
+}
+.menu ul li a{
+   display: block;
+   text-decoration: none;
+   padding: 20px 25px;
+   color: black;
+   
+
+}
+.menu ul li a:hover{
+    color: blue;
+    background-color: blueviolet;
+
+}
+.k{
+    background-color: aquamarine;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+ 
+
+}
+.k ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap:60px;
+    justify-content: center;
+    
+
+
+}
+.k ul li{
+    list-style-type:none;
+
+}
+.k ul li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px 10px;
+
+
+}
+.k ul li a:hover{
+    color: black;
+    background-color: blueviolet;
+
+}
+.class{
+    background-color: brown;
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    padding-top: 10px;
+}
+.box1{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+   
+   
+}
+.box2{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 0, 128);
+
+}
+.box1a{
+    width: 100%;
+    height: 30%;
+    background-color: pink;
+    margin-bottom: 10px;
+    
+    
+}

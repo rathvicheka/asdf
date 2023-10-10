@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.top{
+    width: 100vw;
+    height: 300px;
+    background-color: aqua;
+}
+.header{
+    width: 100vw;
+    height: 150px;
+    background-color: black;
+    /* position: sticky;
+    top: 0; */
+    position: fixed;
+    top: 0;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+section:nth-child(odd)
+{
+    background-color: pink;
+}

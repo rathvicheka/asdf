@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    height: 250px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+.item{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 30%;
+    height: 100%;
+    border: 4px solid gray;
+    box-shadow: 4px 4px 0px gray;
+    
+}
+.box img{
+    width: 100%;
+    height: 60%;
+}
+.text{
+    width: 100%;
+    height: 40%;
+    font-weight: bold;
+}

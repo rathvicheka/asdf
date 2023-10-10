@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    height:700px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 10px 0px;
+    background-color: burlywood;
+}
+.container form{
+    width: 100%;
+    height: 27%;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    background-color: burlywood;
+
+
+}
+.i{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.box{
+    width: 100%;
+    height: 30%;
+    
+    
+
+}
+ .box .box1 input{
+    width: 42.5%;
+    padding: 20px;
+    margin-left: 5%;
+    border: none;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    background: none;
+}
+.box .box1{
+    display: flex;
+}
+.box .box2{
+    width: 100%;
+}
+.box .box2 input{
+    width: 90%;
+    padding: 20px;
+    margin-left: 5%;
+    border: none;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    background: none;
+}
+.box select{
+    width: 90%;
+    padding: 20px;
+    margin-left: 5%;
+    border: none;
+    border-bottom: 2px solid black;
+    background: none;
+}
+.text{
+    width: 100%;
+    height: 25%;
+    margin-top: 20px;
+}
+.text .box2 input {
+    width: 90%;
+    margin-left: 5%;
+    padding: 50px 0px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: none;
+}
+.text button{
+    width: 15%;
+    padding: 20px;
+    margin:20px 50px;
+    background: none;
+}
+
+
+
+

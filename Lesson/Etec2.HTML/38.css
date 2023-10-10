@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    height: 550px;
+    margin: auto;
+    border: 20px solid pink;
+}
+h1{
+    font-size: 45px;
+    color: black;
+    padding: 20px;
+    margin-left: 20px;
+}
+.box{
+    width: 93%;
+    height: 80%;
+    background-color: white;
+    margin: auto;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+label{
+    font-size: 25px;
+    
+}
+button{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;    
+    padding: 15px;
+    background-color: pink;
+    margin-top: 20px;
+}

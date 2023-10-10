@@ -1,0 +1,50 @@
+ #header{
+    margin: auto;
+    background: gray;
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding: 20px 0;
+    width:80%;
+ }
+ #container{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+ }
+ #b{
+    width: 60%;
+    
+    margin: auto;
+    height: 250px;
+    display: flex;
+ }
+ #left{
+    background-color: blue;
+    text-decoration: none;
+    width:30% ;
+    height: 100%;
+    padding: 20px 0px;
+    box-sizing: border-box;
+   
+ }
+ #right{
+    width:70% ;
+    background-color: pink;
+    height: 100%;
+    float: left;
+ }
+ a{
+    text-decoration: none;
+    color: white;
+   
+ }
+ #footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+ }
+ 

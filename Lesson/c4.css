@@ -1,0 +1,38 @@
+.box1{
+    width: 50%;
+    height: 500px;
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+    border-radius: 100%;
+}
+.box2{
+    width: 90%;
+    height: 80%;
+    background-color: yellow;
+    display: grid;
+    place-items: center;
+} 
+.box3{
+    width: 90%;
+    height: 80%;
+    background-color: rgb(25, 0, 255);
+    display: grid;
+    place-items: center;
+}   
+.box5{
+    width: 90%;
+    height: 80%;
+    background-color: rgb(25, 0, 255);
+    display: grid;
+    place-items: center;
+}   
+.box4{
+    width: 90%;
+    height: 80%;
+    background-color: rgb(25, 0, 255);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    
+}   

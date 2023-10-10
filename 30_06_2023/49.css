@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.drop{
+    position: relative;
+}
+.title{
+    background-color: aqua;
+    padding: 30px 50px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.title1{
+    position: absolute;
+    width: 100%;
+    background-color: pink;
+    top: 80px;
+    display: none;
+
+}
+.item1{
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+}
+.drop:hover  .title1{
+    display: block;
+}
+.item1:hover{
+    background-color: rgba(0, 0, 0, 0.171);
+}

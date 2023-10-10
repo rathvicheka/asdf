@@ -1,0 +1,22 @@
+h1::before{
+    content: "Note";
+    color: red;
+    text-decoration: underline;
+
+}
+h1::after{
+    content: "home";
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+p::first-line{
+    letter-spacing: 10px;
+}
+p::first-letter{
+    font-size: 50px;
+    background-color: greenyellow;
+}
+body ::selection{
+    background-color: pink;
+    color: rgb(255, 42, 0);
+}

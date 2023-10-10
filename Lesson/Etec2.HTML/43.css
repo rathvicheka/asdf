@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    background-color: aqua;
+    margin: auto;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.container form{
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    
+}
+.container form .box{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+
+}
+.container .box .box1{
+    width: 100%;
+   margin-top: 10px;
+   background-color: white;
+    border: 2px solid black;
+}
+.container i{
+    width: 5%;
+    background-color: white;
+    padding: 5px;
+    border-right: 2px solid black;
+    
+}
+.container .box1 input{
+    width: 94.2%;
+    padding: 3px;
+    border: none;
+    background-color: unset;
+
+}
+button{
+    width: 100%;
+    padding: 7px;
+    background-color: white;
+    border: none;
+    color: black;
+}
